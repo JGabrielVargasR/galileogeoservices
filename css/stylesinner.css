@@ -1,0 +1,244 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+hr{
+	background-color:#3333cc;
+	height:2px;
+	border:0;
+}
+
+@font-face {
+    font-family: "CenturyGothic";
+    src: url(../fonts/eot/GOTHIC.eot); /*Internet Explorer*/
+	src: url(../fonts/ttf/GOTHIC.ttf) format("truetype"); /*Otros Navegadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicItalic";
+    src: url(../fonts/eot/GOTHICI.eot); /*Internet Explorer*/
+	src: url(../fonts/ttf/GOTHICI.ttf) format("truetype"); /*Otros Navegadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicBold";
+    src: url(../fonts/eot/GOTHICB.eot); /*Internet Explorer*/
+	src: url(../fonts/ttf/GOTHICB.ttf) format("truetype"); /*Otros Navegadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicItalicBold";
+    src: url(../fonts/eot/GOTHICBI.eot); /*Internet Explorer*/
+	src: url(../fonts/ttf/GOTHICBI.ttf) format("truetype"); /*Otros Navegadores*/
+}
+
+.title_3{
+	font-family:CenturyGothicBold;
+	font-weight:bold;
+	color:#3333cc;
+	font-size:20px;
+	text-align:center;
+}
+
+.section_inner{
+	padding:1%;
+	width:98%;
+	float:left;
+	height:auto;
+}
+
+.body_inner{
+	padding:1%;
+	width:98%;	
+}
+
+.article_inner{
+	padding:2%;
+	width:96%;	
+}
+
+.article_inner2{
+	padding:2%;
+	width:46%;
+	float:right;
+}
+
+.parrafo{
+	font-family:verdana;
+	text-align:justify;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 4px;
+	height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+	border-radius:4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3333cc; 
+	border-radius:4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3366ff;
+	border-radius:4px;
+}
+
+.separador_left{
+	background-color:green;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	width:46%;
+	height:44vh;
+	float:left;
+	border-radius:10px;
+}
+
+.separador_right{
+	background-color:orange;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	width:46%;
+	height:44vh;
+	float:right;
+	border-radius:10px;
+}
+
+.separador_bottom{
+	background-color:gray;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	width:46%;
+	height:44vh;
+	float:left;
+	border-radius:10px;
+}
+
+.separador_top{
+	background-color:red;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	width:46%;
+	height:44vh;
+	float:right;
+	border-radius:10px;
+}
+
+#map{
+	margin:0;
+	height:300px;
+	width:100%;
+	float:left;
+	border-radius:10px;
+}
+
+@media (max-width: 550px) {
+	.separador_left{
+	background-color:green;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	width:96%;
+	height:auto;
+	float:left;
+	border-radius:10px;
+	text-align:center;
+}
+
+.separador_right{
+	background-color:orange;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	width:96%;
+	height:auto;
+	float:right;
+	border-radius:10px;
+	text-align:center;
+}
+
+.separador_bottom{
+	background-color:gray;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	width:96%;
+	height:auto;
+	float:left;
+	border-radius:10px;
+	text-align:center;
+}
+
+.separador_top{
+	background-color:red;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	width:96%;
+	height:auto;
+	float:right;
+	border-radius:10px;
+	text-align:center;
+}
+	
+#map{
+	height:300px;
+	width:100%;
+	border-radius:10px;
+}
+
+.article_inner2{
+	padding:2%;
+	width:96%;	
+}
+}

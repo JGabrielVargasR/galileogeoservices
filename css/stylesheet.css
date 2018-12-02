@@ -1,0 +1,254 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:96vw;
+	padding-left:2vw;
+	padding-right:2vw;
+	min-width:550px;
+	font-family:verdana;
+}
+
+/*Clases*/
+.header{
+	width:96%;
+	padding-left:2%;
+	padding-right:2%;
+	padding-bottom:5px;
+	padding-top:5px;
+	height:80px;
+	float:left;
+}
+
+.footer{
+	font-family:CenturyGothicBold;
+	background-color:#3333cc;
+	width:100%;
+	float:left;
+	height:150px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+.info{
+	font-family:CenturyGothic;
+	text-align:right;
+	height:120px;
+	margin:10px;
+	padding:5px;
+	font-size:15px;
+	color:white;
+	min-width:130px;
+}
+
+.contacto{
+	font-family:CenturyGothicItalic;
+	text-align:right;
+	width:50%;
+	height:80px;
+	margin:10px;
+	float:right;
+	font-size:15px;
+	color:black;
+}
+
+.redes{
+	font-family:CenturyGothic;
+	text-align:center;
+	width:20%;
+	min-width:125px;
+	height:130px;
+	margin:10px;
+	float:left;
+	font-size:12px;
+}
+.menu2{
+	font-family:CenturyGothic;
+	color:white;
+	text-align:left;
+	width:20%;
+	height:130px;
+	margin:10px;
+	float:left;
+	font-size:12px;
+}
+
+.menu2 ul {
+	list-style:none;
+	}
+
+.menu2 li a {
+	color:white;
+	}
+	
+.menu{
+	background-color:#3333cc;
+	float:left;
+	width:96%;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:2%;
+	padding-right:2%;
+	height:40px;
+	vertical-align:middle;
+	text-align:left;
+	border-radius:10px;
+}
+
+.lateral{
+	width:26%;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:2%;
+	margin-right:2%;
+	border-radius:10px;
+	height:580px;
+	float:left;
+	background-color:#f2f2f2;
+}
+
+.main{
+	width:66%;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:2%;
+	padding-right:2%;
+	height:598px;
+	float:right;
+}
+
+
+.logo{
+	height:70px;
+	float:left;
+}
+
+.icono_colombia{
+	height:50px;
+	padding-right:10px;
+	padding-left:25px;
+	float:right;
+}
+
+.icon_mini{
+	height:15px;
+}
+
+.icon_redes{
+	height:30px;
+	margin:5px;
+	float:left;
+}
+
+.title0{
+	color:white;
+	font-size: 15px;
+}
+
+.page_footer{
+	float:right;
+	font-family:CenturyGothic;
+	text-align:right;
+	padding-right:2vw;
+	color:white;
+	font-size:1.5vh;
+}
+
+.iframe{
+	padding-top:2px;
+	padding-bottom:2px;
+	height:590px;
+	width:100%;
+	border:0;
+}
+
+/*Menu*/
+ul, ol {
+	list-style:none;
+	}
+			
+.menu_sitio > li {
+	padding:2px;
+	float:left;
+	text-align:left;
+	}
+			
+.menu_sitio li a {
+	background-color:#3333cc;
+	color:#fff;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	display:block;
+	font-family:CenturyGothicBold;
+	color:white;
+	font-size:20px;
+	}
+			
+.menu_sitio li a:hover {
+	background-color:white;
+	font-family:CenturyGothicItalicBold;
+	color:#3333cc;
+	}
+			
+.menu_sitio li ul {
+	display:none;
+	position:absolute;
+	min-width:170px;
+	}
+			
+.menu_sitio li:hover > ul {
+	display:block;	
+	}
+		
+.menu_sitio li ul li {
+	position:relative;
+	}
+			
+.menu_sitio li ul li ul {
+	right:-140px;
+	top:0px;
+	}
+		
+/*Fuentes*/
+@font-face {
+    font-family: "CenturyGothic";
+	src: url(../fonts/ttf/GOTHIC.ttf) format("truetype"); /*Otros menuCSS3egadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicItalic";
+	src: url(../fonts/ttf/GOTHICI.ttf) format("truetype"); /*Otros menuCSS3egadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicBold";
+	src: url(../fonts/ttf/GOTHICB.ttf) format("truetype"); /*Otros menuCSS3egadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicItalicBold";
+    src: url(../fonts/ttf/GOTHICBI.ttf) format("truetype"); /*Otros menuCSS3egadores*/
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 4px;
+	height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3333cc; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3366ff; 
+}

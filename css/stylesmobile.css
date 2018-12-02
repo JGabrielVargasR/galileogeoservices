@@ -1,0 +1,146 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body{
+	width:96%;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+@font-face {
+    font-family: "CenturyGothic";
+    src: url(../fonts/eot/GOTHIC.eot); /*Internet Explorer*/
+	src: url(../fonts/ttf/GOTHIC.ttf) format("truetype"); /*Otros Navegadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicItalic";
+    src: url(../fonts/eot/GOTHICI.eot); /*Internet Explorer*/
+	src: url(../fonts/ttf/GOTHICI.ttf) format("truetype"); /*Otros Navegadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicBold";
+    src: url(../fonts/eot/GOTHICB.eot); /*Internet Explorer*/
+	src: url(../fonts/ttf/GOTHICB.ttf) format("truetype"); /*Otros Navegadores*/
+}
+
+@font-face {
+    font-family: "CenturyGothicItalicBold";
+    src: url(../fonts/eot/GOTHICBI.eot); /*Internet Explorer*/
+	src: url(../fonts/ttf/GOTHICBI.ttf) format("truetype"); /*Otros Navegadores*/
+}
+
+
+#header{
+	height:auto;
+	width:100%;
+	text-align:center;
+	padding-top:1vh;
+	padding-bottom:1vh;
+}
+
+.footer{
+	background-color:#3333cc;
+	height:9vh;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+}
+
+.main{
+	height:69vh;
+	width:98%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-bottom:1vh;
+	padding-top:1vh;
+}
+
+.iframe{
+	width:100%;
+	height:69vh;
+	border:0;
+}
+
+/*Menu*/
+ul, ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	}
+	
+#menu{
+	background-color:#3333cc;
+	height:5vh;
+	width:98%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	border-radius:10px;
+}
+
+.nav > li {
+	float:left;
+	}
+			
+.nav li a {
+	background-color:#3333cc;
+	color:#fff;
+	text-decoration:none;
+	padding:5px 10px;
+	display:block;
+	}
+			
+.nav li a:hover {
+	background-color:white;
+	color:#3333cc;
+	font-family:CenturyGothicItalicBold;
+	}
+
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	
+	}
+			
+.nav li:hover > ul {
+	display:block;
+	font-family:CenturyGothicItalic;
+	}
+			
+.nav li ul li {
+position:relative;
+	}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+	}
+/*Menu*/
+
+.logo{
+	height:8vh;
+}
+
+.icon{
+	width:5vh;
+}
+
+.icon2{
+	height:2vh;
+}
+
+.info{
+	font-family:CenturyGothic;
+	font-size:2vh;
+	color:white;
+	text-align:center;
+}
